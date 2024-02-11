@@ -1,11 +1,9 @@
-// Making the HTML elements Dynamic
 let getfollowers = document.querySelector(".follower");
 let getfollowings = document.querySelector(".followings");
 let getbio = document.querySelector(".job");
 let getDp = document.querySelector(".profile-img");
 let getName = document.querySelector(".name");
 let link = document.querySelector(".link");
-// GitHub User Details Fetching
 let changedURL = prompt("Enter your Username:");
 let requestURL= 'https://api.github.com/users/'+changedURL;
 let profilelink = 'https://github.com/'+changedURL;
