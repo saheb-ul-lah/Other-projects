@@ -35,8 +35,4 @@ function fetchdetailslive(){
     }
     xhr.send();
 }
-//Main function
 fetchdetailslive();
-//one can fetch realtime but Github has some limitation by which it can restrict the IP address if the same machine fetches many that's why its not better to use setInterval 
-//Fetches Live Data every 100 miliseconds
-// setInterval(fetchdetailslive, 100);
